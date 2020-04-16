@@ -1,0 +1,109 @@
+
+Python
+-------
+VSCode ( Visual studio code )
+
+Download from: code.visualstudio.com
+
+Formating python code:	
+
+>> Automatically format the code: autopep8 In windows press Ctrl + Shift + p
+Type “Format Document”         Done!!!
+
+
+2. Auto format code while saving
+
+File >> preferances >> “Format on save”
+
+3. Running a python program
+
+>> Select extension panel and select “code runner”
+
+>> Select .rum (with yellow icon) install it.
+
+To open code runner:  Press Ctrl + shift + u
+
+To open terminal press:  Ctrl  + ~
+
+4 Variable Type hinting (it shows errors if the variable declared as wrong )
+
+Ctrl + shift +  	
+
+
+Shortcuts
+
+Ctrl + ~  		 ---> open terminal
+Ctrl + Shift + p 	----> open module search
+Ctrl + shift + m 	----> disply errors in the code
+Ctrl + shift + u  	 ----> show output
+
+Escape sequence
+
+\ called escape character. 
+# indicates the comment line.
+\\ will display \ on the screen(need to use 2 \)
+\n   start a new line
+“”” line by line in put
+
+
+Format
+
+1.print("test program")    -----> print the word ‘test program’
+2.cours = "pyrthon"        -----> Assign the python value to cours veriable.
+3 print(cours)	          ------> Pint the value of cours
+4.print(len(cours))	    ------> Shows the total count of the letter in inside the cours value
+5.print (cours[1])        -----> Disply the 1st letter in the “cours” value
+6.print(cours[1:4])   -----> print 1 to 3 letter on the cours variable.
+6.print(cours[:4]       ----> print 1 to 3 letter on the cours variable.
+
+
+String formatting:
+
+print(name.upper())     # Print output in uppercase 
+print(name.lower())     # print output in lower case
+print(name.title())     # print output as titile (First letter will be upper case)  
+print (name.replace(“l”,”L”))   #replace l with L 
+print(“ala” in name)      #print ala word in the name value. If the word conaining it will disply true.
+print (“ala” not in name)   #print Fales id ala is not present in name.
+
+
+Arithmetic Operation and Numbers: math  module to perform mathematical terms
+Syntax: import math
+----------------------------------
+Addition
+Subtraction
+Multiplication
+/ Division
+//  Division with a constant number as output.
+% Modular operator (Reminder of a division)
+** exponent  Ex ( 10 ** 3) 10 to the power of 3 is 1000 
+
+-------------------------
+
+Arrgumented assignment operator:
+ 
+X = x + 1
+X += 1    #both the statement are same.
+
+(In python no increment and decrement operator (++ -- )
+
+------------------------------
+
+Working with number:
+
+PI = 3.14   # Declared a variable.
+round(PI)  #It will round a number. 
+print (round(PI))   #output will be 3
+abs(PI)  # Absalute number.
+print (abs(PI)) # Output will be an absalute number.
+
+-------------------------------------
+
+Conditional statement:
+
+Write a program to print permit if the age is in between 18 to 55
+
+Print (“enther your age”)
+Age = input (“age“)
+
+
