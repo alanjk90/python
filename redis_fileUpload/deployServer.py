@@ -22,7 +22,7 @@ if confirm != "Y":
         sys.exit()
 
 try:
-        r = redis.StrictRedis(host=redis_server, port=6379, password="Xy745wLbE3")
+        r = redis.StrictRedis(host=redis_server, port=XXX, password="XXXX")
 
         p = r.pubsub()
         p.subscribe(client)
