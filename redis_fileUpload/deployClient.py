@@ -13,8 +13,8 @@ import grp
 
 class App():
         client = "rca-prod"
-        redis_server = "172.17.1.100"
-        alert_email = ['clarity.v.2@katzion.com']
+        redis_server = "XXXX IP address"
+        alert_email = ['mailid']
 
 
         hostname = socket.gethostname()
@@ -76,8 +76,8 @@ class App():
 
 
         def send_email(self, subject, message):
-                gmail_user = 'katzion.info@gmail.com'
-                gmail_password = 'katz123*'
+                gmail_user = 'mailid'
+                gmail_password = 'XXXX'
 
                 sent_from = gmail_user
 
@@ -107,7 +107,7 @@ class App():
                 logger.info("Deployment started")
 
                 DIR_NAME = "temp_code_dir"
-                REMOTE_URL = "git@git.assembla.com:katzion/clarity-2-0.git"
+                REMOTE_URL = "git@XXXXX.git"
 
                 if os.path.isdir(DIR_NAME):
                         shutil.rmtree(DIR_NAME)
@@ -161,7 +161,7 @@ class App():
                 logger.info("Started")
 
                 try:
-                        r = redis.StrictRedis(host=self.redis_server, port=6379, password="Xy745wLbE3")
+                        r = redis.StrictRedis(host=self.redis_server, port=XXXX, password="XXXX")
 
                         p = r.pubsub()
                         p.subscribe(self.client)
